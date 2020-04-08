@@ -62,4 +62,6 @@ if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
 
+echo "net.hostname=$TARGET_VENDOR_DEVICE_NAME"
+
 echo "# end build properties"
